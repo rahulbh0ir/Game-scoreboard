@@ -1,0 +1,98 @@
+@font-face{
+    src: url("dig.ttf");
+    font-family: dig;
+}
+
+body {
+    background-color: #0b2545;
+    margin: 0;
+    
+}
+
+.container {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+#score-home{
+    font-family: dig;
+    color: red;
+    font-size: 100px;
+    background-color: black; 
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;  
+    margin-top: 0px;  
+    margin-bottom:30px; 
+ 
+}
+
+#score-guest{
+    font-family: dig;
+    color: red;
+    font-size: 100px;
+    background-color: black;
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#btn1{
+    color: white;
+    font-family: dig;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #0b2545;
+}
+
+#btn2{
+    color: white;
+    font-family: dig;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #0b2545;
+}
+
+#btn3{
+    color: white;
+    font-family: dig;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #0b2545;
+}
+
+
+
+#reset{
+    margin-top: 350px;
+    margin-bottom: 0px;
+    
+}
+
+.reset{
+    height: 40px;  
+    width: 90px;
+    font-size: 30px;
+    font-family: dig;
+    background-color: #70e000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    
+}
